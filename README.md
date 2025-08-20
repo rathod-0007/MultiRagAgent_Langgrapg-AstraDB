@@ -92,3 +92,18 @@ for output in app.stream(inputs_vectorstore):
     pprint("\n---\n")
 
 pprint(value['documents'][0].page_content)
+```
+
+### Example 2: Query for Wikipedia Search
+
+This query is for general knowledge and will be routed to the Wikipedia search tool.
+
+```python
+inputs_wiki = {"question": "Avengers"}
+for output in app.stream(inputs_wiki):
+    for key, value in output.items():
+        pprint(f"Node '{key}':")
+    pprint("\n---\n")
+
+pprint(value['documents'][0].page_content)
+```
