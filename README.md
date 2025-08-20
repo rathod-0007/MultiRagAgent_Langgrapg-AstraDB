@@ -1,9 +1,20 @@
-
 # Agentic RAG with LangGraph and Groq
 
-[![Python](https://img.shields.io/badge/python-3.9%2B-blue)](https://www.python.org/) [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![Python](https://img.shields.io/badge/python-3.9%2B-blue)](https://www.python.org/) 
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![LangGraph](https://img.shields.io/badge/langgraph-0.1-purple)](https://github.com/yourusername/langgraph)
+[![Google Colab](https://img.shields.io/badge/google--colab-0.1-orange)](https://colab.research.google.com/)
+[![LangChain](https://img.shields.io/badge/langchain-0.1-lightgrey)](https://www.langchain.com/docs/)
+[![AstraDB](https://img.shields.io/badge/astradb-0.1-blue)](https://www.datastax.com/astra)
+[![LangChain Community](https://img.shields.io/badge/langchain--community-0.1-lightgrey)](https://github.com/hwchase17/langchain-community)
+[![ChromaDB](https://img.shields.io/badge/chromadb-0.1-lightblue)](https://www.trychroma.com/)
+[![HuggingFace Embeddings](https://img.shields.io/badge/huggingface-embeddings-orange)](https://huggingface.co/)
+[![Cassandra](https://img.shields.io/badge/cassandra-0.1-green)](https://cassandra.apache.org/)
+[![ChatGroq](https://img.shields.io/badge/chatgorq-0.1-red)](https://www.groq.com/)
+[![Arxiv API](https://img.shields.io/badge/arxiv-API-lightblue)](https://arxiv.org/help/api/user-manual)
+[![Wikipedia API](https://img.shields.io/badge/wikipedia-API-lightgrey)](https://www.mediawiki.org/wiki/API:Main_page)
 
-This project demonstrates an **Agentic RAG (Retrieval Augmented Generation) system** using **Langgraph**, **Groq**, and **Cassandra** as a vector store. It intelligently routes user questions to either a vector database containing information about LLM agents, prompt engineering, and adversarial attacks, or to Wikipedia for general knowledge queries.
+This project demonstrates an **Agentic RAG (Retrieval Augmented Generation) system** using **LangGraph**, **Groq**, and **Cassandra** as a vector store. It intelligently routes user questions to either a vector database containing information about LLM agents, prompt engineering, and adversarial attacks, or to Wikipedia for general knowledge queries.
 
 ## Features
 
